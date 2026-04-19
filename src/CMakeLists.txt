@@ -1,4 +1,4 @@
-add_library(libbtree btree.cpp)
+add_library(libbtree btree.cpp node.cpp)
 add_library(btree::libbtree ALIAS libbtree)
 
 set_target_properties(libbtree
